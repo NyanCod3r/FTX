@@ -166,6 +166,10 @@ class FtxClient:
         return self._get(f'wallet/balances')
 
     @authentication_required
+    def get_lending_rates(self, market: str = None) -> List[dict]:
+        return self._get(f'spot_margin/lending_rates')
+
+    @authentication_required
     def get_deposit_address(self, ticker: str) -> dict:
         return self._get(f'wallet/deposit_address/{ticker}')
 
