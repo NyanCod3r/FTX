@@ -1,4 +1,6 @@
 # FTX Python client
+# Archived as FTX is defunct and SBF should be in jail
+
 A Unofficial Python3 library to interact with [FTX's](https://ftx.com/) API. The library can be used to fetch
 market data, make trades, place orders or create third-party clients.
 
