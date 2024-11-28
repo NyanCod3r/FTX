@@ -15,7 +15,7 @@ setup(name='ftx',
       url='https://github.com/quan-digital/ftx/tree/v1.1',
       download_url = 'https://github.com/quan-digital/ftx/archive/v1.1.tar.gz',
       install_requires=[
-        'requests==2.23.0',
+        'requests==2.31.0',
         'schedule==0.6.0',
         'satoshi==0.1.3'
       ],
